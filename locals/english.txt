@@ -1,0 +1,14 @@
+{
+
+	"menu_l_global_value_pm" : "This is a Custom Weapon!",
+	
+	"bm_w_pm" : "Makarov PM",
+	
+	"bm_menu_iron_rear"  : "Rear Iron Sight" ,
+	"bm_menu_iron_front" : "Front Iron Sight",
+	"bm_menu_finish"     : "Finish"          ,
+	
+	"bm_wp_wpn_fps_pis_pm_fi_re"    : "Refinished Parts"      ,
+	"bm_wp_wpn_fps_pis_pm_fi_steel" : "Stainless Steel Finish",
+	
+}

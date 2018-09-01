@@ -1,0 +1,7 @@
+<dynamic_object>
+    <diesel materials="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_cube" orientation_object="rp_wpn_fps_pis_pl14_sl_standard" />
+	<graphics>
+		<object name="g_sl" enabled="true" />
+		<object name="g_pins" enabled="false" />
+	</graphics>
+</dynamic_object>

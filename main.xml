@@ -1,0 +1,421 @@
+<table name="Makarov PM" image="guis/pm" color="Color(0.8, 0.2, 0.8)">
+
+	<Localization directory="locals" default="english.txt"/>
+	
+<!--<AssetUpdates id="22095" name="asset_updates" folder_name="Makarov PM" version="1.0" provider="modworkshop"/>-->
+	
+	<GlobalValue id="pm" color="Color(0.8, 0.2, 0.8)"/>
+
+	<WeaponMod id="wpn_fps_pis_pm_f_std"    based_on="wpn_fps_pis_pl14_body_standard" type="frame"      unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_f_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_g_std"    based_on="wpn_fps_pis_pl14_body_standard" type="grip"       unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_h_std"    based_on="wpn_fps_pis_pl14_body_standard" type="hammer"     unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_h_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_sl_std"   based_on="wpn_fps_pis_pl14_sl_standard"   type="slide"      unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_sl_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_pis_pm_ro_std"   based_on="wpn_fps_pis_pl14_sl_standard"   type="iron_rear"  unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ro_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_fo_std"   based_on="wpn_fps_pis_pl14_sl_standard"   type="iron_front" unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fo_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_ba_std"   based_on="wpn_fps_pis_pl14_b_standard"    type="barrel"     unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ba_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_m_std"    based_on="wpn_fps_pis_pl14_m_standard"    type="magazine"   unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_pm_g_dark"   based_on="wpn_fps_pis_pl14_body_standard" type="grip"       unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_dark" texture_bundle_folder="mods" drop="false" is_a_unlockable="true"  >
+		<stats concealment="1" suppression="2"/>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_pm_fi_re"    based_on="wpn_fps_upg_a_custom_free" type="finish"          unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"           texture_bundle_folder="mods" drop="false" is_a_unlockable="true"  >
+		<stats damage="0" />
+		<override>
+			<wpn_fps_pis_pm_f_std  unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_f_re" />
+			<wpn_fps_pis_pm_h_std  unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_h_re" />
+			<wpn_fps_pis_pm_sl_std unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_sl_re"/>
+			<wpn_fps_pis_pm_ro_std unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ro_re"/>
+			<wpn_fps_pis_pm_fo_std unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_fo_re"/>
+			<wpn_fps_pis_pm_ba_std unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ba_re"/>
+			<wpn_fps_pis_pm_m_std  unit="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_m_re" />
+		</override>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_pm_fi_steel" based_on="wpn_fps_upg_a_custom_free" type="finish"          unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"           texture_bundle_folder="mods" drop="false" is_a_unlockable="true"  >
+		<stats damage="0" recoil="1" concealment="-2"/>
+		<override>
+			<wpn_fps_pis_pm_f_std  unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_f_steel" />
+			<wpn_fps_pis_pm_h_std  unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_h_steel" />
+			<wpn_fps_pis_pm_sl_std unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_sl_steel"/>
+			<wpn_fps_pis_pm_ro_std unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ro_steel"/>
+			<wpn_fps_pis_pm_fo_std unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_fo_steel"/>
+			<wpn_fps_pis_pm_ba_std unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ba_steel"/>
+			<wpn_fps_pis_pm_m_std  unit="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_m_steel" />
+		</override>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_pm_m_ext"    based_on="wpn_fps_pis_pl14_m_standard"    type="magazine"   unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_ext"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo_new="7" spread="-2" concealment="-4"/>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_pm_m_drum"    based_on="wpn_fps_pis_pl14_m_standard"    type="magazine"   unit="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_drum"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo_new="76" spread="-8" recoil="-12" concealment="-10"/>
+		<pcs/>
+	</WeaponMod>
+	
+	<Weapon unlock_level="16">
+		<weapon id="pm" based_on="pl14" CLIP_AMMO_MAX="8" NR_CLIPS_MAX="8" tactical_reload="1" texture_bundle_folder="mods" global_value="pm">
+			<stats damage="85" spread="19" spread_moving="19" recoil="10" concealment="29"/>
+			<timers reload_not_empty="1.5" reload_empty="2.2"/>
+			<fire_mode_data fire_rate="0.15"/>
+			<AMMO_PICKUP>
+				<value_node value="1.66"/>
+				<value_node value="2.66"/>
+			</AMMO_PICKUP>
+			<sounds fire="makarov_fire"/>
+			<animations reload_name_id="pl14"/>
+		</weapon>
+
+		<factory id="wpn_fps_pis_pm" unit="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm">
+			
+			<animations reload="reload" reload_not_empty="reload_not_empty" fire="recoil" fire_steelsight="recoil" magazine_empty="last_recoil"/>
+			
+			<optional_types>
+				<value_node value="barrel"    />
+				<value_node value="barrel_ext"/>
+				<value_node value="slide"     />
+			</optional_types>
+
+			<default_blueprint>
+			
+				<value_node value="wpn_fps_pis_pm_f_std"  />
+				<value_node value="wpn_fps_pis_pm_h_std"  />
+				<value_node value="wpn_fps_pis_pm_g_std"  />
+				<value_node value="wpn_fps_pis_pm_sl_std" />
+				<value_node value="wpn_fps_pis_pm_ro_std" />
+				<value_node value="wpn_fps_pis_pm_fo_std" />
+				<value_node value="wpn_fps_pis_pm_ba_std" />
+				<value_node value="wpn_fps_pis_pm_m_std"  />
+				
+			</default_blueprint>
+			
+			<uses_parts>
+			
+				<value_node value="wpn_fps_pis_pm_f_std"   />
+				<value_node value="wpn_fps_pis_pm_h_std"   />
+				<value_node value="wpn_fps_pis_pm_g_std"   />
+				<value_node value="wpn_fps_pis_pm_sl_std"  />
+				<value_node value="wpn_fps_pis_pm_ro_std"  />
+				<value_node value="wpn_fps_pis_pm_fo_std"  />
+				<value_node value="wpn_fps_pis_pm_ba_std"  />
+				<value_node value="wpn_fps_pis_pm_m_std"   />
+				
+				<value_node value="wpn_fps_pis_pm_g_dark"  />
+				
+				<value_node value="wpn_fps_pis_pm_fi_re"   />
+				<value_node value="wpn_fps_pis_pm_fi_steel"/>
+				
+				<value_node value="wpn_fps_pis_pm_m_ext"   />
+				<value_node value="wpn_fps_pis_pm_m_drum"  />
+				
+				<value_node value="wpn_fps_upg_ns_pis_large"      />
+				<value_node value="wpn_fps_upg_ns_pis_medium"     />
+				<value_node value="wpn_fps_upg_ns_pis_small"      />
+				<value_node value="wpn_fps_upg_ns_pis_large_kac"  />
+				<value_node value="wpn_fps_upg_ns_pis_medium_gem" />
+				<value_node value="wpn_fps_upg_ns_pis_medium_slim"/>
+				<value_node value="wpn_fps_upg_ns_pis_jungle"     />
+				<value_node value="wpn_fps_upg_ns_pis_meatgrinder"/>
+				<value_node value="wpn_fps_upg_ns_pis_ipsccomp"   />
+				<value_node value="wpn_fps_upg_pis_ns_flash"      />
+				
+				<value_node value="wpn_fps_upg_fl_pis_laser"      />
+				<value_node value="wpn_fps_upg_fl_pis_tlr1"       />
+				<value_node value="wpn_fps_upg_fl_pis_crimson"    />
+				<value_node value="wpn_fps_upg_fl_pis_x400v"      />
+				<value_node value="wpn_fps_upg_fl_pis_m3x"        />
+				
+				<value_node value="wpn_fps_upg_o_rmr"/>
+
+			</uses_parts>
+			
+		</factory>
+		<stance/>
+		
+	</Weapon>
+	
+	<Sounds directory="assets">
+		<sound id="makarov_fire" path="sounds/makarov_fire.ogg" prefix="regular"/>
+		<redirect id="makarov_fire" to="p226r_fire" prefix="suppressed_a"/>
+		<redirect id="makarov_fire" to="p226r_fire" prefix="suppressed_b"/>
+		<redirect id="makarov_fire" to="p226r_fire" prefix="suppressed_c"/>
+	</Sounds>
+	
+	<AddFiles directory="assets">
+	
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_flat"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_flat_thq"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_cube"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/pm_std_cube_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_f_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_f_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_f_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_f_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_sl_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_sl_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_sl_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_sl_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ba_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ba_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ba_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ba_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fo_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fo_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fo_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fo_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ro_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ro_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ro_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_ro_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_h_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_h_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_h_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_h_std"/>
+		
+		<!-- MISC PTS -->
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_dark"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_dark"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_dark"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_g_dark"/>
+		
+		<!-- REFINISHED PTS-->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_re_pts/pm_re_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_re_pts/pm_re_flat"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_re_pts/pm_re_flat_thq"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_re_pts/pm_re_cube"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_re_pts/pm_re_cube_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_f_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_f_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_f_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_f_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_sl_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_sl_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_sl_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_sl_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ba_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ba_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ba_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ba_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_m_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_m_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_m_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_m_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_g_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_g_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_g_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_g_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_fo_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_fo_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_fo_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_fo_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ro_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ro_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ro_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_ro_re"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_h_re"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_h_re"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_h_re"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_re_pts/wpn_fps_pis_pm_h_re"/>
+		
+		<!-- STAINLESS PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_flat"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_flat_thq"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_cube"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/pm_steel_cube_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_f_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_f_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_f_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_f_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_sl_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_sl_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_sl_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_sl_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ba_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ba_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ba_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ba_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_m_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_m_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_m_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_m_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_g_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_g_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_g_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_g_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_fo_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_fo_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_fo_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_fo_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ro_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ro_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ro_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_ro_steel"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_h_steel"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_h_steel"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_h_steel"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_steel_pts/wpn_fps_pis_pm_h_steel"/>
+		
+		<!-- PMM PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_flat"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_flat_thq"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_cube"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pmm_pts/pmm_std_cube_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_f_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_f_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_f_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_f_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_sl_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_sl_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_sl_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_sl_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ba_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ba_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ba_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ba_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_m_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_m_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_m_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_m_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_g_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_g_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_g_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_g_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_fo_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_fo_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_fo_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_fo_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ro_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ro_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ro_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_ro_std"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_h_std"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_h_std"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_h_std"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pmm_pts/wpn_fps_pis_pmm_h_std"/>
+		
+		<!-- DRUM MAG PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/drum_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/drum_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/drum"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/drum_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_drum"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_drum"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_drum"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_drum"/>
+		
+		<!-- EXT MAG PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/insurgency_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/insurgency_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/insurgency"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/insurgency_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_ext"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_ext"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_ext"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_m_ext"/>
+		
+		<!-- LASER PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/laser_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_pm_pts/laser_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/laser"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_pm_pts/laser_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fl_laser"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fl_laser"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fl_laser"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm_pts/wpn_fps_pis_pm_fl_laser"/>
+		
+		<!-- UNIT PTS -->
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm"/>
+		
+		<unit            path="units/mods/weapons/wpn_fps_pis_pm/wpn_fps_pis_pm_npc"/>
+
+	</AddFiles>
+	
+<!--<Hooks directory="hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+		<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
+	</Hooks>-->
+	
+</table>
